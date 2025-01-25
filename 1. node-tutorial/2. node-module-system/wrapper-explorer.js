@@ -6,3 +6,7 @@ console.log("__dirname in wrapper explorer", __dirname);
 module.exports.greet = function (name) {
   console.log(`Hello ${name}`);
 };
+
+// export function greet(name) {
+//   console.log(`Hello ${name}`);
+// }
